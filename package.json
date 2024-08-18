@@ -1,0 +1,17 @@
+{
+  "name": "api_project_one",
+  "module": "api_project_index",
+  "type": "module",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "elysia": "^1.1.6",
+    "mysql2": "^3.11.0"
+  }
+}

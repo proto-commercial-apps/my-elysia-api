@@ -1,0 +1,44 @@
+### Register a new user:
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "user1",
+  "password": "pass123"
+}
+
+### Login with the user
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "user1",
+  "password": "pass123"
+}
+
+### Add income:
+POST http://localhost:3000/income
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "amount": 500
+}
+
+### Add expense:
+POST http://localhost:3000/expense
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "amount": 200
+}
+
+### Get balance:
+GET http://localhost:3000/balance/1
+Accept: application/json
+
+### Get transactions:
+GET http://localhost:3000/transactions/1
+Accept: application/json
+
